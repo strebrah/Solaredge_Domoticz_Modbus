@@ -1,7 +1,7 @@
 # Solaredge Domoticz Modbus
 
 Designed for python 3.7 (based on the requirements of the 'solaredge_modbus' library.)<br/>
-Thanks to Niels for the 'solaredge_modbus' library https://pypi.org/project/solaredge-modbus/<br/>
+Thanks to Niels for the 'solaredge_modbus' library https://pypi.org/project/solaredge-modbus/ or https://github.com/nmakel<br/>
 Tested on Raspberry Pi Zero W, running Domoticz, in combination with a SE5000HD Solaredge inverter.
 
 # Capabilities:                                                                                    
