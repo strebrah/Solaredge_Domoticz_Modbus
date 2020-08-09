@@ -62,3 +62,5 @@ After that it updates the values in Domoticz.
 
 Problems? 
 Start with turning on 'DEBUG_ON = 1' in dz_se_lib.py
+<img width=“964” alt=“” src=“https://github.com/strebrah/Solaredge_Domoticz_Modbus/blob/master/images/screenshot_DZ.png”>
+
