@@ -65,4 +65,5 @@ Start with turning on 'DEBUG_ON = 1' in dz_se_lib.py
 
 Something like this;
 <img width="964" alt="" src="https://github.com/strebrah/Solaredge_Domoticz_Modbus/blob/master/images/screenshot_DZ.png">
-
+<img width="964" alt="" src="https://github.com/strebrah/Solaredge_Domoticz_Modbus/blob/master/images/screenshot_DZ1.png">
+<img width="964" alt="" src="https://github.com/strebrah/Solaredge_Domoticz_Modbus/blob/master/images/screenshot_DZ2.png">
