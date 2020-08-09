@@ -59,3 +59,6 @@ for example every minute:
 
 First time it configures all hardware and sensor devices. 
 After that it updates the values in Domoticz.
+
+Problems? 
+Start with turning on 'DEBUG_ON = 1' in dz_se_lib.py
