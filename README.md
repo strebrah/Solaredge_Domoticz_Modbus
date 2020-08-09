@@ -29,27 +29,27 @@ Tested on Raspberry Pi Zero W, running Domoticz, in combination with a SE5000HD 
     domoticz_solaredge_comm_init_done = 0<br/>
     current_inverter_state = 0<br/>
 
-[SENSOR NAME LIST]<br/>
--solaredge_dc_voltage = **Solaredge DC Voltage**<br/>
--solaredge_dc_current = **Solaredge DC Current**<br/>
--solaredge_dc_power = **Solaredge DC Power**<br/>
-solaredge_ac_voltage = **Solaredge AC Voltage**<br/>
-solaredge_ac_current = **Solaredge AC Current**<br/>
-solaredge_ac_power = **Solaredge AC Power**<br/>
-solaredge_inverter_temp = **Solaredge Inverter Temperature**<br/>
-solaredge_total_energy = **Solaredge Total Energy**<br/>
-solaredge_inverter_state = **Solaredge Inverter State**<br/>
+    [SENSOR NAME LIST]<br/>
+    solaredge_dc_voltage = **Solaredge DC Voltage**<br/>
+    solaredge_dc_current = **Solaredge DC Current**<br/>
+    solaredge_dc_power = **Solaredge DC Power**<br/>
+    solaredge_ac_voltage = **Solaredge AC Voltage**<br/>
+    solaredge_ac_current = **Solaredge AC Current**<br/>
+    solaredge_ac_power = **Solaredge AC Power**<br/>
+    solaredge_inverter_temp = **Solaredge Inverter Temperature**<br/>
+    solaredge_total_energy = **Solaredge Total Energy**<br/>
+    solaredge_inverter_state = **Solaredge Inverter State**<br/>
 
-[SENSOR IDX LIST]<br/>
-solaredge_dc_voltage_idx = 0<br/>
-solaredge_dc_current_idx = 0<br/>
-solaredge_dc_power_idx = 0<br/>
-solaredge_ac_voltage_idx = 0<br/>
-solaredge_ac_current_idx = 0<br/>
-solaredge_ac_power_idx = 0<br/>
-solaredge_inverter_temp_idx = 0<br/>
-solaredge_total_energy_idx = 0<br/>
-solaredge_inverter_state_idx = 0<br/>
+    [SENSOR IDX LIST]<br/>
+    solaredge_dc_voltage_idx = 0<br/>
+    solaredge_dc_current_idx = 0<br/>
+    solaredge_dc_power_idx = 0<br/>
+    solaredge_ac_voltage_idx = 0<br/>
+    solaredge_ac_current_idx = 0<br/>
+    solaredge_ac_power_idx = 0<br/>
+    solaredge_inverter_temp_idx = 0<br/>
+    solaredge_total_energy_idx = 0<br/>
+    solaredge_inverter_state_idx = 0<br/>
 
 3. copy files to raspberry pi, for example in: /home/pi/domoticz/scripts/python/
 
