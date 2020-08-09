@@ -19,15 +19,15 @@ Tested on Raspberry Pi Zero W, running Domoticz, in combination with a SE5000HD 
 2. Enter configuration in ini file.<br/>
 <br/>**Only change values in bold**
 
-[GENERAL SETTINGS]<br/>
-domoticz_ip = **192.168.100.3**<br/>
-domoticz_port = **80**<br/>
-domoticz_hw_name = **Solaredge Modbus TCP** <br/>
-solaredge_inverter_ip = **192.168.100.211**<br/>
-solaredge_inverter_port = **502**<br/>
-domoticz_hw_idx = 0<br/>
-domoticz_solaredge_comm_init_done = 0<br/>
-current_inverter_state = 0<br/>
+    [GENERAL SETTINGS]<br/>
+    domoticz_ip = **192.168.100.3**<br/>
+    domoticz_port = **80**<br/>
+    domoticz_hw_name = **Solaredge Modbus TCP** <br/>
+    solaredge_inverter_ip = **192.168.100.211**<br/>
+    solaredge_inverter_port = **502**<br/>
+    domoticz_hw_idx = 0<br/>
+    domoticz_solaredge_comm_init_done = 0<br/>
+    current_inverter_state = 0<br/>
 
 [SENSOR NAME LIST]<br/>
 -solaredge_dc_voltage = **Solaredge DC Voltage**<br/>
