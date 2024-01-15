@@ -217,10 +217,10 @@ def domoticz_transceive_data(domoticz_ip, domoticz_port, settings, session, inve
             f"\tPhase 3-N voltage: {(values['p3n_voltage'] * (10 ** values['voltage_scale'])):.2f}{inverter.registers['p3n_voltage'][6]}")
     else:
         if DEBUG_ON:
-            print(f"\tAC Voltage: {(values['p1_voltage'] * (10 ** values['voltage_scale'])):.2f}{inverter.registers['p1_voltage'][6]}")
+            print(f"\tAC Voltage: {(values['l1_voltage'] * (10 ** values['voltage_scale'])):.2f}{inverter.registers['l1_voltage'][6]}")
         urlmessage = 'http://' + domoticz_ip + ':' + domoticz_port + '/json.htm?type=command&param=udevice&idx=' + str(
             settings.get('SENSOR IDX LIST', 'solaredge_ac_voltage_idx')) + '&svalue=' + str(
-            (values['p1_voltage'] * (10 ** values['voltage_scale'])))
+            (values['l1_voltage'] * (10 ** values['voltage_scale'])))
         r = session.post(urlmessage)
         if DEBUG_ON:
             print(r)
